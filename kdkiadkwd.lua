@@ -1,0 +1,47 @@
+getgenv().prefix = '/' -- The prefix for the commands example: :fly username
+getgenv().controller = 364276664 -- Enter controllers userid! Make sure the id isnt in the alts
+getgenv().altFPS = 5 -- set the FPS for alts
+getgenv().adMessage = "CURRY TEAM ON TOP!"
+getgenv().adMessageCooldown = 2
+getgenv().alts = {
+   Alt1 = 750082213,
+   Alt2 = 334839045,
+   Alt3 = 239501455,
+   Alt4 = 2788908688,
+   Alt5 = 241180828,
+   Alt6 = 358785984,
+   Alt7 = 341416326,
+   Alt8 = 425851394,
+   Alt9 = 247333067,
+   Alt10 = 1853010166,
+   Alt11 = 2740119808,
+   Alt12 = 364276664,
+   Alt13 = 2740095167,
+   Alt14 = 235585779,
+   Alt15 = 237157950,
+   Alt16 = 722501131,
+   Alt17 = 805792598,
+   Alt18 = 723526727,
+   Alt19 = 237136566,
+   Alt20 = 722743366,
+   Alt21 = 441607240,
+   Alt22 = 808638805,
+   Alt23 = 447525467,
+   Alt24 = 723594514,
+   Alt25 = 722270547,
+   Alt26 = 722475735,
+   Alt27 = 0,  -- Fill in the remaining alts as needed
+   Alt28 = 0,
+   Alt29 = 0,
+   Alt30 = 0,
+   Alt31 = 0,
+   Alt32 = 0,
+   Alt33 = 0,
+   Alt34 = 0,
+   Alt35 = 0,
+   Alt36 = 0,
+   Alt37 = 0,
+   Alt38 = 0,
+}
+-- loader
+loadstring(game:HttpGet("https://raw.githubusercontent.com/incognitototo/bedrock-alt-controll/main/source.lua", true))()
