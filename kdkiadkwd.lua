@@ -1,6 +1,6 @@
 getgenv().prefix = '/' -- The prefix for the commands example: :fly username
 getgenv().controller = 364276664 -- Enter controllers userid! Make sure the id isnt in the alts
-getgenv().altFPS = 5 -- set the FPS for alts
+getgenv().altFPS = 1 -- set the FPS for alts
 getgenv().adMessage = "CURRY TEAM ON TOP!"
 getgenv().adMessageCooldown = 2
 getgenv().alts = {
